@@ -1,0 +1,401 @@
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left:6rem;
+    padding-right:9.5rem; */
+    background-color:rgba(255, 255, 255, 1);
+    width: 100%;
+    height:195px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+    
+    
+   
+}
+
+
+.mainLogo{
+    width: 304px;
+    height:162.82px;
+    cursor: pointer;
+   
+    }
+
+.btn-contact{
+    width: 286px;
+    height:74.72px;
+    background-color:rgba(29, 64, 104, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 30.27px;
+    line-height:36.64px;
+    font-weight: 400;
+    border: none;
+    box-shadow: 0px 3.69px 3.69px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Inter", serif;
+    cursor: pointer;
+}
+
+.btn-contact:hover {
+    background-color: rgba(36, 83, 129, 1); 
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.4); 
+  }
+
+
+.barIcon-container{
+    display: none;
+   
+}
+
+.barIcon-container  .burger {
+    font-size: 40px;  
+    width:40px;      
+    height:45px;  
+    color:rgba(29, 64, 104, 1);
+    display:flex;  
+  transform: scaleX(1.5); 
+  }
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width:1200px) {
+    .header-container{
+       
+        padding-left:3rem;
+        padding-right:6.5rem;
+      
+    }
+
+}
+
+
+@media (max-width:1100px) {
+
+    .header-container{
+       padding-left:5rem;
+      padding-right:7.5rem;
+      
+    }
+
+    .mainLogo{
+        width:240px;
+        height:130.82px;
+        }
+    
+    .btn-contact{
+        width:230px;
+        height:60.72px;
+        font-size: 20.27px;
+        
+    }
+
+    .header-container{
+        height:150px;
+    }
+
+}
+
+@media (max-width:1000px) {
+
+   .mainLogo{
+         width:210px;
+         height:120.82px;
+         }
+     
+     .btn-contact{
+         width:210px;
+         height:50.72px;
+         font-size: 20.27px;
+         
+     }
+
+
+     .header-container{
+        height:140px;
+    }
+
+
+}
+
+
+@media (max-width:900px) {
+    .barIcon-container{
+       display:flex;
+        
+    }
+
+    .header-container{
+        padding-left:3rem;
+       padding-right:5.5rem;
+       box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+              
+            }
+
+
+}
+
+@media (max-width:800px) {
+
+    
+    .header-container{
+        padding-left:3rem;
+       padding-right:5rem;
+       
+     }
+    .mainLogo{
+        width:160px;
+        height:100.82px;
+        }
+    
+    .btn-contact{
+        width:180px;
+        height:50.72px;
+        font-size: 20.27px;
+        
+    }
+
+   .header-container{
+        height:120px;
+    }
+
+}
+
+@media (max-width:690px) {
+
+    
+    .header-container{
+        padding-left:3rem;
+       padding-right:4.5rem;
+       
+     }
+    .mainLogo{
+        width:140px;
+        height:90.82px;
+        }
+    
+    .btn-contact{
+        width:160px;
+        height:40.72px;
+        font-size:17.27px;
+        
+    }
+
+
+   
+    .barIcon-container  .burger {
+        font-size: 40px;  
+        width:30px;      
+        height:45px;  
+       
+      }
+   
+   
+ 
+    
+
+}
+
+@media (max-width:590px) {
+
+    
+    .header-container{
+        padding-left:3rem;
+       padding-right:3.5rem;
+       
+     }
+    .mainLogo{
+        width:110px;
+        height:70.82px;
+        }
+    
+    .btn-contact{
+        width:140px;
+        height:40.72px;
+        font-size:15.27px;
+        
+    }
+   .header-container{
+        height:100px;
+    }
+
+    .barIcon-container  .burger {
+        font-size:35px;  
+        width:30px;      
+        height:36px;  
+       
+      }
+
+   
+}
+
+
+@media (max-width:500px) {
+
+    
+    .header-container{
+        padding-left:3rem;
+       padding-right:3.5rem;
+       
+     }
+    .mainLogo{
+        width:90px;
+        height:60.82px;
+        }
+    
+    .btn-contact{
+        width:130px;
+        height:35.72px;
+        font-size:13.27px;
+        
+    }
+
+   
+     .header-container{
+        height:80px;
+    }
+
+    .barIcon-container  .burger {
+        font-size:30px;  
+        width:25px;      
+        height:30px;  
+       
+      }
+
+
+
+   
+}
+
+@media (max-width:490px) {
+
+   
+    .btn-contact{
+        width:120px;
+        height:35.72px;
+        font-size:13.27px;
+        
+    }
+
+    .barIcon-container  .burger {
+        font-size:29.5px;  
+        width:25px;      
+        height:30px;  
+       
+}
+}
+
+@media (max-width:450px) {
+
+    .header-container{
+        padding-left:2rem;
+       padding-right:3.5rem;
+       
+     }
+
+
+    .mainLogo{
+        width:80px;
+        height:50.82px;
+        }
+
+
+        .btn-contact{
+            width:110px;
+            height:30.72px;
+            font-size:10.27px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .barIcon-container  .burger {
+            font-size:27.5px;  
+            width:25px;      
+            height:27px;  
+           
+    }
+
+    .header-container{
+        height:70px;
+    }
+    
+}
+
+
+
+@media (max-width:420px) {
+
+    .header-container{
+        padding-left:2rem;
+       padding-right:3.5rem;
+       
+     }
+
+    .mainLogo{
+        width:70px;
+        height:49.82px;
+        }
+
+
+        .btn-contact{
+            width:100px;
+            height:30.72px;
+            font-size:10.27px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .barIcon-container  .burger {
+            font-size:26.5px;  
+            width:25px;      
+            height:26px;  
+           
+    }
+    
+}
+
+
+@media (max-width:390px) {
+
+    .header-container{
+        padding-left:2rem;
+       padding-right:2.5rem;
+       
+     }
+
+    .mainLogo{
+        width:60px;
+        height:45.82px;
+        }
+
+
+        .btn-contact{
+            width:80px;
+            height:25.72px;
+            font-size:9.27px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .barIcon-container  .burger {
+            font-size:24.5px;  
+            width:25px;      
+            height:26px;  
+           
+    }
+
+    .header-container{
+        height:60px;
+    }
+    
+}
+
+
+

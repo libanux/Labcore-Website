@@ -1,0 +1,16 @@
+<div class="header-container">
+
+    <img 
+    class="mainLogo" 
+    routerLink=""
+    src="images/mainLogo.png"/>
+
+    <button class="btn-contact" routerLink="contactus">Contact Us</button>
+
+
+    <div class="barIcon-container"  *ngIf="!isNavOpen" (click)="toggleNav()">
+        
+        <i class="fa-solid fa-bars burger"></i>
+
+    </div>
+</div>

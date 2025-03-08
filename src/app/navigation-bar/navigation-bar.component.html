@@ -1,0 +1,30 @@
+<div [ngClass]="isNavOpen ? 'nav-sideBar-container open' : 'nav-container'">
+
+   
+   <div class="cancle" *ngIf="isNavOpen" (click)="closeNav()">
+    <i class="fa-solid fa-xmark cancelIcon"></i>
+   </div>
+   
+   
+ <div [ngClass]="isNavOpen ? 'nav-sideBar-container-links' : 'nav-container-links'">
+        <a 
+        routerLink="" [routerLinkActive]="'active'"
+         [routerLinkActiveOptions]="{ exact: true }"
+         (click)="setNavClosed()">Home</a>
+        <a routerLink="aboutUs" 
+        [routerLinkActive]="'active'" 
+        [routerLinkActiveOptions]="{ exact: true }" (click)="setNavClosed()">About Us</a>
+        <a 
+        routerLink="partners" [routerLinkActive]="'active'" 
+        [routerLinkActiveOptions]="{ exact: true }" (click)="setNavClosed()">Partners</a>
+        <a routerLink="solutions" 
+        [routerLinkActive]="'active'" 
+        [routerLinkActiveOptions]="{ exact: true }" (click)="setNavClosed()">Solutions</a>
+        <a routerLink="services" 
+        [routerLinkActive]="'active'" 
+        [routerLinkActiveOptions]="{ exact: true }" (click)="setNavClosed()">Services</a>
+ </div>
+
+    
+
+</div>

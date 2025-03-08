@@ -1,0 +1,1711 @@
+.contact-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5rem;
+    gap:3.6rem;
+}
+
+.contact-left{
+   display: flex;
+   flex-direction: column;
+    gap:1.2rem;
+    
+}
+
+span.contact-tit{
+ font-weight: 700;   
+ color: rgba(29, 64, 104, 1);
+ font-size:33px;
+ font-family: "Cairo", serif;
+line-height: 0;
+margin-bottom:2px;
+}
+
+span.contact-question{
+ font-weight: 500;   
+ color:rgba(29, 64, 104, 1);
+ font-size:19px;
+ font-family: "Cairo", serif;
+ margin-bottom:5px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+
+input:focus{
+    outline: none;
+}
+.name-phone{
+    display: flex;
+    gap:1.3rem
+}
+
+.name input,.number input,.email-b input,select,textarea{
+
+    width:165px;
+    padding-left:1rem;
+    padding-top:4px;
+    padding-bottom:4px;
+    font-size:17px;
+    font-weight: 500;   
+    font-family: "Cairo", serif;
+    color:rgba(125, 118, 118, 1);
+    background-color: rgba(240, 247, 252, 1);
+    border:0.5px solid rgba(1, 175, 241, 1);
+    box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.number input{
+    padding-left:9px;
+}
+
+select{
+padding-left:9px;
+appearance: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  background-image: url('../../../public/images/selectarrow.png');
+  background-position:125px  17px ; 
+  background-size:22px 12px;
+  background-repeat: no-repeat; 
+}
+
+
+select:focus,textarea:focus{
+    outline: none;
+}
+
+
+
+
+.email-branch{
+    display: flex;
+    gap:1.3rem
+}
+
+textarea{
+    padding-left:1rem;
+    padding-top:1rem;
+    padding-bottom:0px;
+    width: 350px;
+    height:220px;
+}
+
+
+button{
+    width:350px;
+    border: none;
+    background-color: rgba(1, 175, 241, 1);
+    box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    font-weight: 500;   
+    color:rgba(229, 237, 241, 1);
+    font-size:17px;
+   font-family: "Cairo", serif;
+   cursor: pointer;
+   padding-top:4px;
+   padding-bottom:4px;
+
+}
+
+.email-b,.name,.number{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+}
+
+.text-danger {
+    color: red;             
+    font-weight: bold;       
+     
+}
+
+.email-b{
+    position: relative;
+}
+
+.error{
+position: absolute;
+top:3.2rem;
+line-height:5px;
+white-space: nowrap;  
+}
+
+  
+
+
+.hideImage-con{
+    display: none;
+}
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -2.5rem;
+   
+  
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    position: relative;
+    top: -2.3rem;
+    
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.3rem;
+    
+}
+
+.address .icon-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.3rem;
+    margin-top:6px;
+}
+
+.phone .icon-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    position: relative;
+    left:1.5rem;
+}
+
+.contact-info img{
+    width: 30px;
+    height: 30px;
+}
+
+.address-text,.phone-text,.email-text{
+font-weight:400;   
+ color:rgba(29, 64, 104, 1);
+ font-size:18px;
+ font-family: "Cairo", serif;
+ line-height: 0;
+
+}
+
+
+.email-text{
+    font-size:20px;
+    position: relative;
+    top:5px;
+}
+
+.email img{
+    width: 35px;
+    height: 35px;
+}
+
+.address img{
+    width: 31px;
+    height: 33px;
+}
+
+.phone img{
+    position: relative;
+    top: -3px;
+}
+
+.con-image{
+    width:370px;
+    height:360px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width:850px) {
+
+    .con-image{
+        width:330px;
+        height:340px;
+    }
+
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:5rem;
+        gap:3rem;
+    }
+    
+    .contact-left{
+        display: flex;
+        flex-direction: column;
+        gap:1.2rem;
+        
+    }
+    
+    span.contact-tit{
+     font-weight: 700;   
+     color: rgba(29, 64, 104, 1);
+     font-size:33px;
+     font-family: "Cairo", serif;
+    line-height: 0;
+    margin-bottom:2px;
+    }
+    
+    span.contact-question{
+     font-weight: 500;   
+     color:rgba(29, 64, 104, 1);
+     font-size:19px;
+     font-family: "Cairo", serif;
+     margin-bottom:5px;
+    }
+    
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    .name-phone{
+        display: flex;
+        gap:1.3rem
+    }
+    
+    .name input,.number input,.email-b input,select,textarea{
+    
+        width:150px;
+        padding-left:1rem;
+        padding-top:4px;
+        padding-bottom:4px;
+        font-size:16px;
+        font-weight: 500;   
+        font-family: "Cairo", serif;
+        color:rgba(125, 118, 118, 1);
+        background-color: rgba(240, 247, 252, 1);
+        border:0.5px solid rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    
+    
+    }
+    
+    .number input{
+        padding-left:9px;
+    }
+    
+    select{
+    padding-left:9px;
+    appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      background-image: url('../../../public/images/selectarrow.png');
+      background-position:120px  15px ; 
+      background-size:19px 10px;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    select:focus,textarea:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+    .email-branch{
+        display: flex;
+        gap:1.3rem
+    }
+    
+    textarea{
+        padding-left:1rem;
+        padding-top:1rem;
+        padding-bottom:0px;
+        width: 325px;
+        height:220px;
+    }
+    
+    
+    button{
+        width:325px;
+        border: none;
+        background-color: rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+        font-weight: 500;   
+        color:rgba(229, 237, 241, 1);
+        font-size:17px;
+       font-family: "Cairo", serif;
+       cursor: pointer;
+       padding-top:4px;
+       padding-bottom:4px;
+    
+    }
+    
+    .email-b,.name,.number{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        position: relative;
+    }
+    
+    .text-danger {
+        color: red;             
+        font-weight: bold;       
+         
+    }
+    
+    .email-b{
+        position: relative;
+    }
+    
+    .error{
+    position: absolute;
+    top:3.2rem;
+    line-height:5px;
+    white-space: nowrap;  
+    }
+    
+      
+    
+    
+    .hideImage-con{
+        display: none;
+    }
+    
+    .contact-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: -2.5rem;
+       
+      
+    }
+    
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+        position: relative;
+        top: -2.3rem;
+        
+    }
+    
+    .address{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1.3rem;
+        
+    }
+    
+    .address .icon-address{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    
+    
+    .phone{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1.3rem;
+        margin-top:6px;
+    }
+    
+    .phone .icon-phone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    
+    .email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+        position: relative;
+        left:1.5rem;
+    }
+    
+    .contact-info img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .address-text,.phone-text,.email-text{
+    font-weight:400;   
+     color:rgba(29, 64, 104, 1);
+     font-size:18px;
+     font-family: "Cairo", serif;
+     line-height: 0;
+    
+    }
+    
+    
+    .email-text{
+        font-size:20px;
+        position: relative;
+        top:5px;
+    }
+    
+    .email img{
+        width: 35px;
+        height: 35px;
+    }
+    
+    .address img{
+        width: 31px;
+        height: 33px;
+    }
+    
+    .phone img{
+        position: relative;
+        top: -3px;
+    }
+    
+  
+    
+}
+
+
+@media (max-width:770px) {
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:5rem;
+        gap:3.6rem;
+    }
+    
+    .contact-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.2rem;
+        
+    }
+    
+    span.contact-tit{
+     font-weight: 700;   
+     color: rgba(29, 64, 104, 1);
+     font-size:35px;
+     font-family: "Cairo", serif;
+     line-height: 0;
+    margin-bottom:2px;
+    }
+    
+    span.contact-question{
+     font-weight: 500;   
+     color:rgba(29, 64, 104, 1);
+     font-size:20px;
+     font-family: "Cairo", serif;
+     margin-bottom:5px;
+    }
+    
+    
+    form{
+        /* width:100%; */
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        gap:1.7rem;
+        margin-top: -2rem;
+      
+        
+        
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    .name-phone{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem;
+    }
+    
+    .name input,.number input,.email-b input,select,textarea{
+    
+        width:520px;
+        padding-left:1.2rem;
+        padding-top:7px;
+        padding-bottom:7px;
+        font-size:19px;
+        font-weight: 500;   
+        font-family: "Cairo", serif;
+        color:rgba(125, 118, 118, 1);
+        background-color: rgba(240, 247, 252, 1);
+        border:0.5px solid rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    
+    
+    }
+    
+    .number input,.email-b input{
+        padding-left:22px;
+    }
+    
+    select{
+      padding-left:22px;
+      padding-top:15px;
+      padding-bottom:15px;
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      background-image: url('../../../public/images/selectarrow.png');
+      background-position:455px  16px ; 
+      background-size:29px 15px;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    select:focus,textarea:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+    .email-branch{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem
+    }
+    
+    textarea{
+        padding-left:1rem;
+        padding-top:1rem;
+        padding-bottom:0px;
+        width:520px;
+        height:250px;
+    }
+    
+    
+    button{
+        width:520px;
+        border: none;
+        background-color: rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+        font-weight: 500;   
+        color:rgba(229, 237, 241, 1);
+        font-size:18px;
+        font-family: "Cairo", serif;
+        cursor: pointer;
+        padding-top:5px;
+        padding-bottom:5px;
+        margin-top: 11px;
+    
+    }
+    
+    .email-b,.name,.number{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        position: relative;
+    }
+    
+    .text-danger {
+        color: red;             
+        font-weight: bold;       
+         
+    }
+    
+    .email-b{
+        position: relative;
+    }
+    
+    .error{
+    position: absolute;
+    top:3.2rem;
+    line-height:23px;
+    white-space: nowrap;  
+    }
+    
+      
+    
+.hideImage-con{
+        display:block;
+        width:550px;
+        height:450px;
+      
+       
+    }
+    
+    .contact-right{
+        display: none;
+    }
+    
+   
+}
+
+@media (max-width:600px) {
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:5rem;
+        gap:3.6rem;
+    }
+    
+    .contact-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.2rem;
+        
+    }
+    
+    span.contact-tit{
+     font-weight: 700;   
+     color: rgba(29, 64, 104, 1);
+     font-size:35px;
+     font-family: "Cairo", serif;
+     line-height: 0;
+    margin-bottom:2px;
+    }
+    
+    span.contact-question{
+     font-weight: 500;   
+     color:rgba(29, 64, 104, 1);
+     font-size:20px;
+     font-family: "Cairo", serif;
+     margin-bottom:5px;
+    }
+    
+    
+    form{
+        /* width:100%; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.7rem;
+        margin-top: -2.5rem;
+      
+        
+        
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    .name-phone{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem;
+    }
+    
+    .name input,.number input,.email-b input,select,textarea{
+    
+        width:450px;
+        padding-left:1.2rem;
+        padding-top:7px;
+        padding-bottom:7px;
+        font-size:19px;
+        font-weight: 500;   
+        font-family: "Cairo", serif;
+        color:rgba(125, 118, 118, 1);
+        background-color: rgba(240, 247, 252, 1);
+        border:0.5px solid rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    
+    
+    }
+    
+    .number input,.email-b input{
+        padding-left:22px;
+    }
+    
+    select{
+      padding-left:22px;
+      padding-top:15px;
+      padding-bottom:15px;
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      background-image: url('../../../public/images/selectarrow.png');
+      background-position:380px  16px ; 
+      background-size:29px 15px;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    select:focus,textarea:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+    .email-branch{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem
+    }
+    
+    textarea{
+        padding-left:1rem;
+        padding-top:1rem;
+        padding-bottom:0px;
+        width:450px;
+        height:250px;
+    }
+    
+    
+    button{
+        width:450px;
+        border: none;
+        background-color: rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+        font-weight: 500;   
+        color:rgba(229, 237, 241, 1);
+        font-size:18px;
+       font-family: "Cairo", serif;
+       cursor: pointer;
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-top: 11px;
+    
+    }
+    
+    .email-b,.name,.number{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        position: relative;
+    }
+    
+    .text-danger {
+        color: red;             
+        font-weight: bold;       
+         
+    }
+    
+    .email-b{
+        position: relative;
+    }
+    
+    .error{
+    position: absolute;
+    top:3.2rem;
+    line-height:23px;
+    white-space: nowrap;  
+    }
+    
+      
+    
+.hideImage-con{
+        display:block;
+        width:450px;
+        height:450px;
+      
+       
+    }
+    
+    .contact-right{
+        display: none;
+    }
+    
+   
+}
+
+@media (max-width:540px) {
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:5rem;
+        gap:3.6rem;
+    }
+    
+    .contact-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.2rem;
+        
+    }
+    
+    span.contact-tit{
+     font-weight: 700;   
+     color: rgba(29, 64, 104, 1);
+     font-size:35px;
+     font-family: "Cairo", serif;
+     line-height: 0;
+    margin-bottom:2px;
+    }
+    
+    span.contact-question{
+     font-weight: 500;   
+     color:rgba(29, 64, 104, 1);
+     font-size:20px;
+     font-family: "Cairo", serif;
+     margin-bottom:5px;
+    }
+    
+    
+    form{
+        /* width:100%; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.7rem;
+        margin-top: -3rem;
+      
+        
+        
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    .name-phone{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem;
+    }
+    
+    .name input,.number input,.email-b input,select,textarea{
+    
+        width:400px;
+        padding-left:1.2rem;
+        padding-top:7px;
+        padding-bottom:7px;
+        font-size:19px;
+        font-weight: 500;   
+        font-family: "Cairo", serif;
+        color:rgba(125, 118, 118, 1);
+        background-color: rgba(240, 247, 252, 1);
+        border:0.5px solid rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    
+    
+    }
+    
+    .number input,.email-b input{
+        padding-left:22px;
+    }
+    
+    select{
+      padding-left:22px;
+      padding-top:15px;
+      padding-bottom:15px;
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      background-image: url('../../../public/images/selectarrow.png');
+      background-position:330px  16px ; 
+      background-size:29px 15px;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    select:focus,textarea:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+    .email-branch{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem
+    }
+    
+    textarea{
+        padding-left:1rem;
+        padding-top:1rem;
+        padding-bottom:0px;
+        width:400px;
+        height:250px;
+    }
+    
+    
+    button{
+        width:400px;
+        border: none;
+        background-color: rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+        font-weight: 500;   
+        color:rgba(229, 237, 241, 1);
+        font-size:18px;
+       font-family: "Cairo", serif;
+       cursor: pointer;
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-top:8px;
+    
+    }
+    
+    .email-b,.name,.number{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        position: relative;
+    }
+    
+    .text-danger {
+        color: red;             
+        font-weight: bold;       
+         
+    }
+    
+    .email-b{
+        position: relative;
+    }
+    
+    .error{
+    position: absolute;
+    top:3.2rem;
+    line-height:23px;
+    white-space: nowrap;  
+    }
+    
+      
+    
+.hideImage-con{
+        display:block;
+        width:400px;
+        height:450px;
+      
+       
+    }
+    
+    .contact-right{
+        display: none;
+    }
+    
+   
+}
+
+@media (max-width:480px) {
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:4rem;
+        gap:3.6rem;
+    }
+    
+    .contact-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.2rem;
+        
+    }
+    
+    span.contact-tit{
+     font-weight: 700;   
+     color: rgba(29, 64, 104, 1);
+     font-size:35px;
+     font-family: "Cairo", serif;
+     line-height: 0;
+    margin-bottom:2px;
+    }
+    
+    span.contact-question{
+     font-weight: 500;   
+     color:rgba(29, 64, 104, 1);
+     font-size:20px;
+     font-family: "Cairo", serif;
+     margin-bottom:5px;
+    }
+    
+    
+    form{
+        /* width:100%; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.7rem;
+        margin-top: -3rem;
+      
+        
+        
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    .name-phone{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem;
+    }
+    
+    .name input,.number input,.email-b input,select,textarea{
+    
+        width:380px;
+        padding-left:1.2rem;
+        padding-top:7px;
+        padding-bottom:7px;
+        font-size:19px;
+        font-weight: 500;   
+        font-family: "Cairo", serif;
+        color:rgba(125, 118, 118, 1);
+        background-color: rgba(240, 247, 252, 1);
+        border:0.5px solid rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    
+    
+    }
+    
+    .number input,.email-b input{
+        padding-left:22px;
+    }
+    
+    select{
+      padding-left:22px;
+      padding-top:15px;
+      padding-bottom:15px;
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      background-image: url('../../../public/images/selectarrow.png');
+      background-position:310px  16px ; 
+      background-size:29px 15px;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    select:focus,textarea:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+    .email-branch{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem
+    }
+    
+    textarea{
+        padding-left:1rem;
+        padding-top:1rem;
+        padding-bottom:0px;
+        width:380px;
+        height:325px;
+    }
+    
+    
+    button{
+        width:380px;
+        border: none;
+        background-color: rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+        font-weight: 500;   
+        color:rgba(229, 237, 241, 1);
+        font-size:18px;
+       font-family: "Cairo", serif;
+       cursor: pointer;
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-top:6px;
+    
+    }
+    
+    .email-b,.name,.number{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        position: relative;
+    }
+    
+    .text-danger {
+        color: red;             
+        font-weight: bold;       
+         
+    }
+    
+    .email-b{
+        position: relative;
+    }
+    
+    .error{
+    position: absolute;
+    top:3.2rem;
+    line-height:23px;
+    white-space: nowrap;  
+    }
+    
+      
+    
+.hideImage-con{
+        display:block;
+        width:380px;
+        height:440px;
+      
+       
+    }
+    
+    .contact-right{
+        display: none;
+    }
+    
+   
+}
+
+@media (max-width:430px) {
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:4rem;
+        gap:3.6rem;
+    }
+    
+    .contact-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.2rem;
+        
+    }
+    
+    span.contact-tit{
+     font-weight: 700;   
+     color: rgba(29, 64, 104, 1);
+     font-size:35px;
+     font-family: "Cairo", serif;
+     line-height: 0;
+    margin-bottom:2px;
+    }
+    
+    span.contact-question{
+     font-weight: 500;   
+     color:rgba(29, 64, 104, 1);
+     font-size:20px;
+     font-family: "Cairo", serif;
+     margin-bottom:5px;
+    }
+    
+    
+    form{
+        /* width:100%; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.7rem;
+        margin-top: -3.3rem;
+      
+        
+        
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    .name-phone{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem;
+    }
+    
+    .name input,.number input,.email-b input,select,textarea{
+    
+        width:350px;
+        padding-left:1.2rem;
+        padding-top:7px;
+        padding-bottom:7px;
+        font-size:19px;
+        font-weight: 500;   
+        font-family: "Cairo", serif;
+        color:rgba(125, 118, 118, 1);
+        background-color: rgba(240, 247, 252, 1);
+        border:0.5px solid rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    
+    
+    }
+    
+    .number input,.email-b input{
+        padding-left:22px;
+    }
+    
+    select{
+      padding-left:22px;
+      padding-top:15px;
+      padding-bottom:15px;
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      background-image: url('../../../public/images/selectarrow.png');
+      background-position:285px  16px ; 
+      background-size:29px 15px;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    select:focus,textarea:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+    .email-branch{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem
+    }
+    
+    textarea{
+        padding-left:1rem;
+        padding-top:1rem;
+        padding-bottom:0px;
+        width:350px;
+        height:325px;
+    }
+    
+    
+    button{
+        width:350px;
+        border: none;
+        background-color: rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+        font-weight: 500;   
+        color:rgba(229, 237, 241, 1);
+        font-size:18px;
+       font-family: "Cairo", serif;
+       cursor: pointer;
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-top:6px;
+    
+    }
+    
+    .email-b,.name,.number{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        position: relative;
+    }
+    
+    .text-danger {
+        color: red;             
+        font-weight: bold;       
+         
+    }
+    
+    .email-b{
+        position: relative;
+    }
+    
+    .error{
+    position: absolute;
+    top:3.2rem;
+    line-height:23px;
+    white-space: nowrap;  
+    }
+    
+      
+    
+.hideImage-con{
+        display:block;
+        width:350px;
+        height:440px;
+      
+       
+    }
+    
+    .contact-right{
+        display: none;
+    }
+    
+   
+}
+
+
+@media (max-width:400px) {
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:4rem;
+        gap:3.6rem;
+    }
+    
+    .contact-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.2rem;
+        
+    }
+    
+    span.contact-tit{
+     font-weight: 700;   
+     color: rgba(29, 64, 104, 1);
+     font-size:30px;
+     font-family: "Cairo", serif;
+     line-height: 0;
+    margin-bottom:-1px;
+    }
+    
+    span.contact-question{
+     font-weight: 500;   
+     color:rgba(29, 64, 104, 1);
+     font-size:18px;
+     font-family: "Cairo", serif;
+     margin-bottom:2px;
+    }
+    
+    
+    form{
+        /* width:100%; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.7rem;
+        margin-top: -3.3rem;
+      
+        
+        
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    .name-phone{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem;
+    }
+    
+    .name input,.number input,.email-b input,select,textarea{
+    
+        width:300px;
+        padding-left:1.2rem;
+        padding-top:7px;
+        padding-bottom:7px;
+        font-size:19px;
+        font-weight: 500;   
+        font-family: "Cairo", serif;
+        color:rgba(125, 118, 118, 1);
+        background-color: rgba(240, 247, 252, 1);
+        border:0.5px solid rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    
+    
+    }
+    
+    .number input,.email-b input{
+        padding-left:22px;
+    }
+    
+    select{
+      padding-left:22px;
+      padding-top:15px;
+      padding-bottom:15px;
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      background-image: url('../../../public/images/selectarrow.png');
+      background-position:235px  16px ; 
+      background-size:29px 15px;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    select:focus,textarea:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+    .email-branch{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem
+    }
+    
+    textarea{
+        padding-left:1rem;
+        padding-top:1rem;
+        padding-bottom:0px;
+        width:300px;
+        height:280px;
+    }
+    
+    
+    button{
+        width:300px;
+        border: none;
+        background-color: rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+        font-weight: 500;   
+        color:rgba(229, 237, 241, 1);
+        font-size:18px;
+       font-family: "Cairo", serif;
+       cursor: pointer;
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-top:6px;
+    
+    }
+    
+    .email-b,.name,.number{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        position: relative;
+    }
+    
+    .text-danger {
+        color: red;             
+        font-weight: bold;       
+         
+    }
+    
+    .email-b{
+        position: relative;
+    }
+    
+    .error{
+    position: absolute;
+    top:3.2rem;
+    line-height:23px;
+    white-space: nowrap;  
+    }
+    
+      
+    
+.hideImage-con{
+        display:block;
+        width:300px;
+        height:400px;
+      
+       
+    }
+    
+    .contact-right{
+        display: none;
+    }
+    
+   
+}
+
+
+
+
+@media (max-width:355px) {
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:4rem;
+        gap:3.6rem;
+    }
+    
+    .contact-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.2rem;
+        
+    }
+    
+    span.contact-tit{
+     font-weight: 700;   
+     color: rgba(29, 64, 104, 1);
+     font-size:30px;
+     font-family: "Cairo", serif;
+     line-height: 0;
+    margin-bottom:-1px;
+    }
+    
+    span.contact-question{
+     font-weight: 500;   
+     color:rgba(29, 64, 104, 1);
+     font-size:18px;
+     font-family: "Cairo", serif;
+     margin-bottom:2px;
+    }
+    
+    
+    form{
+        /* width:100%; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:1.7rem;
+        margin-top: -3.3rem;
+      
+        
+        
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    .name-phone{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem;
+    }
+    
+    .name input,.number input,.email-b input,select,textarea{
+    
+        width:290px;
+        padding-left:1.2rem;
+        padding-top:7px;
+        padding-bottom:7px;
+        font-size:19px;
+        font-weight: 500;   
+        font-family: "Cairo", serif;
+        color:rgba(125, 118, 118, 1);
+        background-color: rgba(240, 247, 252, 1);
+        border:0.5px solid rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+    
+    
+    }
+    
+    .number input,.email-b input{
+        padding-left:22px;
+    }
+    
+    select{
+      padding-left:22px;
+      padding-top:15px;
+      padding-bottom:15px;
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      background-image: url('../../../public/images/selectarrow.png');
+      background-position:224px  16px ; 
+      background-size:29px 15px;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    select:focus,textarea:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+    .email-branch{
+        display: flex;
+        flex-direction: column;
+        gap:1.7rem
+    }
+    
+    textarea{
+        padding-left:1rem;
+        padding-top:1rem;
+        padding-bottom:0px;
+        width:290px;
+        height:250px;
+    }
+    
+    
+    button{
+        width:290px;
+        border: none;
+        background-color: rgba(1, 175, 241, 1);
+        box-shadow: 0px 10px 16.8px 0px rgba(0, 0, 0, 0.25);
+        font-weight: 500;   
+        color:rgba(229, 237, 241, 1);
+        font-size:18px;
+       font-family: "Cairo", serif;
+       cursor: pointer;
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-top:4px;
+    
+    }
+    
+    .email-b,.name,.number{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        position: relative;
+    }
+    
+    .text-danger {
+        color: red;             
+        font-weight: bold;       
+         
+    }
+    
+    .email-b{
+        position: relative;
+    }
+    
+    .error{
+    position: absolute;
+    top:3.2rem;
+    line-height:23px;
+    white-space: nowrap;  
+    }
+    
+      
+    
+.hideImage-con{
+        display:block;
+        width:260px;
+        height:380px;
+      
+       
+    }
+    
+    .contact-right{
+        display: none;
+    }
+    
+   
+}
+

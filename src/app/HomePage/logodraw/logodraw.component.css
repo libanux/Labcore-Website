@@ -1,0 +1,123 @@
+.logodraw-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem
+}
+
+.logodraw-container .line{
+    width: 139px;
+    height: 2px;
+    border-radius:5px;
+   background-color: rgba(1, 175, 241, 1);
+
+}
+
+.logodraw-container .logo{
+    width:69px;
+    height:37px;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width:1001px) {
+
+    .logodraw-container{
+        position: relative;
+        top:-1rem;
+    }
+}
+
+@media (max-width:900px) {
+
+    .logodraw-container{
+        position: relative;
+        top:-1.5rem;
+    }
+
+    .logodraw-container .line{
+        width: 120px;
+        height: 2px;
+       
+    
+    }
+}
+
+@media (max-width:800px) {
+
+    .logodraw-container{
+        position: relative;
+        top:-2rem;
+    }
+
+    .logodraw-container .line{
+        width: 105px;
+        height: 2px;
+       
+    
+    }
+
+    .logodraw-container .logo{
+        width:65px;
+        height:35px;
+    }
+}
+
+@media (max-width:690px) {
+
+    .logodraw-container{
+        position: relative;
+        top:-2.5rem;
+    }
+
+    .logodraw-container .line{
+        width:85px;
+        height: 2px;
+       
+ }
+
+ .logodraw-container .logo{
+    width:60px;
+    height:30px;
+}
+}
+
+@media (max-width:500px) {
+
+    .logodraw-container{
+        position: relative;
+        top:-3rem;
+    }
+
+    .logodraw-container .line{
+        width:70px;
+        height: 2px;
+       
+ }
+
+ 
+}
+
+@media (max-width:450px) {
+
+    .logodraw-container{
+        position: relative;
+        top:-3.5rem;
+    }
+
+    .logodraw-container .line{
+        width:45px;
+        height: 2px;
+       
+ }
+
+ .logodraw-container{
+    
+    gap:10px
+}
+
+ 
+}
+
+ 

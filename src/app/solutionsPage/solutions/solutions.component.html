@@ -1,0 +1,30 @@
+<div class="solutions-container" #solutionContainer>
+
+    <span class="tit">Solutions</span>
+
+    <div class="big-box" >
+        <div class="small-box" *ngFor="let solution of solutions">
+            <span class="solution-title">{{ solution.bigtitle }}</span>
+            <img [src]="solution.image"/>
+
+            <div class="cate-list">
+              <div class="cate-list-item" *ngFor="let category of solution.categories;
+              let i = index; let last = last" (click)="onCategoryClick(category,solution.bigtitle)">
+
+                <span class="category-title" >{{category.title}}</span>
+                <div class="line" [ngClass]="{'linehide': last}"></div>
+              </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+  <div class="solution-details" *ngIf="solutionOpen" >
+<app-solutions-details [categories]="selectedCategories" [solutionTitle]="selectedSolutionTitle"></app-solutions-details>
+  </div>
+
+
+</div>

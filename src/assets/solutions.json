@@ -1,0 +1,401 @@
+[
+  {
+    "bigtitle": "Industries",
+    "image": "images/doc.png",
+    "categories": [
+      {
+        "title": "Agro-Food",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Pharma & Cosmetics",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Heavy Industries and Petrochemicals",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bigtitle": "Academic Research",
+    "image":"images/doc.png",
+    "categories": [
+      {
+        "title": "Agricultural Sciences",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Animal Sciences",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Cell Biology",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Chemistry & Biochemistry",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Nutrition & Food Sciences:",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "bigtitle": "Medical Laboratories",
+    "image":"images/doc.png",
+    "categories": [
+      {
+        "title": "Histopathology",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Molecular Diagnostics",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Blood Bank",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+
+      {
+        "title": "In Vitro Fertilization (IVF",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      },
+      {
+        "title": "Microbiology",
+        "subcategories": [
+          {
+            "title": "Rheological Testing",
+            "points":"Alveograph, MixoLab, Texture Analyzers, Viscometers, and others"
+          },
+          {
+            "title": "Food Microbiology",
+            "points":"Media, Antibiotic disks, ELISA, qPCR, Lateral flow tests, ATP, MaldiTOF" 
+          },
+          {
+            "title": "Nutritional Analysis",
+            "points":"NIR spectrometer, XRF, Gas Chromatograph, HPLC, UV-Vis Spectrometer, AAS, ICP, Calorimeter, etc.."
+          },
+          {
+            "title": "Food Chemistry",
+            "points": "PH meter, Conductivity meter, Colorimeter, Turbidity, DO meters, Allergen detection"
+          },
+          {
+            "title": "Pesticide Residue Testing",
+            "points": "NMR, GCMS, LCMS, FTIR, HRMAS, and more."
+          },
+          {
+            "title": "Soil & Water Analysis",
+            "points":"ICPOES, Flame photometer, PF, PH meter, Spectrometer, AAS, ICPMS, Fluorometer, PCR, XRF."
+          }
+        ]
+      }
+
+      
+    ]
+  }
+]

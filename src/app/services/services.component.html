@@ -1,0 +1,25 @@
+<div class="services-container">
+
+    <span class="b-title">Delivering Expertise, Ensuring Excellence</span>
+
+    <div class="services-b-box">
+        <div class="services-s-box" *ngFor="let service of services;let i = index"
+        [ngClass]="'s-box-' + (i + 1)" >
+
+            <span class="s-title">{{service.title}}</span>
+
+            <ul>
+                <li *ngFor="let servicePionts of service.services">
+                    {{servicePionts}}
+
+                </li>
+            </ul>
+           
+            <img [src]="service.image"/>
+        
+
+
+        </div>
+
+    </div>
+</div>

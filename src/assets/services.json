@@ -1,0 +1,60 @@
+
+[
+    {
+        "title":"Consulting & Strategic Services:",
+        "services":[
+            "Strategic Planning: Developing long-term goals and strategies for lab operations.",
+            "Process Optimization: Improving efficiency and effectiveness of laboratory workflows.",
+            "Laboratory Design & Planning: Designing new labs or renovating existing ones.",
+            "Technology Selection & Integration: Choosing and integrating appropriate equipment and software.",
+            "Validation & Qualification Services: Validating equipment, processes, and software. IQ, OQ, PQ"
+        ],
+
+        "image":"images/doc.png"
+
+    },
+    {
+        "title":"Training & Development:",
+        "services":[
+            "Equipment Operation Training: Hands-on training on specific lab instruments.",
+            "Software Training: Training on data analysis software and interface software.",
+            "Method Development & Validation Training: Training on developing and validating analytical methods.",
+            "Good Laboratory Practices (GLP) Training: Training on adhering to GLP standards.",
+            "Safety Training: Training on laboratory safety procedures and protocols.",
+            "Custom Training Programs: Tailored training to meet specific client needs."
+        ],
+
+        "image":"images/doc.png"
+
+    },
+
+    {
+        "title":"Implementation & Support Services:",
+        "services":[
+            "Equipment Installation & Commissioning: Setting up and testing new laboratory equipment.",
+            "System Integration: Integrating different lab systems and instruments.",
+            "Maintenance & Repair Services: Regular maintenance and repair of lab equipment.",
+            "On-site Support: Providing technical assistance at the client's location.",
+            "Remote Support: Providing technical assistance remotely via phone, email, or online tools.",
+            "Calibration & Qualification Services: Ensuring accuracy and reliability of lab equipment.",
+            "Spare Parts Supply: Providing access to replacement parts for lab equipment."
+        ],
+
+        "image":"images/doc.png"
+
+    },
+
+    {
+        "title":"Other Related Services:",
+        "services":[
+            "Project Management: Managing and overseeing lab projects from start to finish.",
+            "Laboratory Relocation Services: Assisting with the relocation of laboratories."
+            
+        ],
+
+        "image":"images/doc.png"
+
+    }
+
+
+]

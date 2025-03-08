@@ -1,0 +1,31 @@
+<div class="solutions-details-container">
+    <div class="cancel-div">
+        <img src="images/cancelIcon.png" (click)="cancelbox()"/>
+    </div>
+
+    <div class="titles">
+        <span class="sol-title">{{categories.title}}</span>
+        <span class="big-tit">{{solutionTitle}}</span>
+    </div>
+
+    <div class="sol-details">
+        <div class="sol-piont" *ngFor="let piont of categories.subcategories; let i = index">
+            <div class="s-title">
+                <span class="num">{{ i+1 }}.</span>
+                <span class="p-tit">{{piont.title}}</span>
+
+              </div>
+
+            <ul class="pionts">
+                
+                <li class="piont-item">
+                    
+                 {{piont.points}}</li>
+
+            </ul>
+
+
+        </div>
+
+    </div>
+</div>

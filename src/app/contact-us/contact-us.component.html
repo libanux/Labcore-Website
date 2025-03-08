@@ -1,0 +1,122 @@
+<div class="contact-container">
+
+    <div class="contact-left">
+        <span class="contact-tit">Get In Touch</span>
+        <span class="contact-question">We are here for you, how can we help?</span>
+
+        <img src="images/contactImage.png" class="hideImage-con"/>
+
+        <form [formGroup]="contactForm" >
+            <div class="name-phone">
+                <div class="name">
+                <input placeholder="Your Name" type="text" 
+                name="name" 
+                formControlName="senderName"
+                 />
+                 <div class="error"
+                   *ngIf="contactForm.get('senderName')?.invalid && (contactForm.get('senderName')?.dirty) || (contactForm.get('senderName')?.touched)  "> 
+          
+                    <small class="text-danger"
+                    *ngIf="contactForm.get('senderName')?.hasError('required')" >
+                    This field is rquired
+                    </small>
+                 </div>
+            </div>
+            <div class="number">
+                <input placeholder="Phone Number" type="text" name="number"
+                formControlName="senderPhone"
+                 />
+                 <div class="error"
+                  *ngIf="contactForm.get('senderPhone')?.invalid && (contactForm.get('senderPhone')?.dirty) || (contactForm.get('senderPhone')?.touched)  "> 
+          
+                    <small class="text-danger"
+                    *ngIf="contactForm.get('senderPhone')?.hasError('required')" >
+                    This field is rquired
+                    </small>
+                 </div>
+            </div>
+            </div>
+
+            <div class="email-branch">
+                <div class="email-b">
+                <input placeholder="Email"  type="email" name="email" 
+                formControlName="senderEmail"
+                />
+
+                <div  class="error"
+                *ngIf="contactForm.get('senderEmail')?.invalid && (contactForm.get('senderEmail')?.dirty) || (contactForm.get('senderEmail')?.touched)  "> 
+        
+                    
+                    <small class="text-danger"
+                    *ngIf="contactForm.get('senderEmail')?.hasError('required')"
+                    
+                    >
+                   This field is rquired
+                    </small>
+        
+                    <small class="text-danger"
+                    *ngIf="contactForm.get('senderEmail')?.hasError('email')"
+                    
+                    > Please enter your email address </small>
+        
+                  
+                 </div>
+            </div>
+                
+            
+                <select  name="branches">
+                    <option value="" disabled selected hidden>Choose Branch</option>
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="history">History</option>
+                    <option value="literature">Literature</option>
+                  </select>
+                  
+            </div>
+            <div class="message">
+            <textarea name="message" placeholder="Enter Your Message..."></textarea>
+        </div>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+
+
+    <div class="contact-right">
+        <img src="images/contactImage.png" class="con-image"/>
+
+        <div class="contact-info">
+            <div class="address">
+                <div class="icon-address">
+                    <img src="images/location.png"/>
+                    <span class="address-text">123-adress-adress</span>
+
+                </div>
+                
+                <span class="address-text">123-adress-adress</span>
+                
+
+            </div>
+
+            <div class="phone">
+                <div class="icon-phone">
+                    <img src="images/phone.png"/>
+                    <span class="phone-text">+9610000000000</span>
+
+                </div>
+                <span class="phone-text">+9610000000000</span>
+
+            </div>
+
+            <div class="email">
+                <img src="images/email.png"/>
+                <span class="email-text">Labcore&#64;labcore.com</span>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
