@@ -97,6 +97,7 @@ textarea{
     padding-bottom:0px;
     width: 350px;
     height:220px;
+    resize: none; 
 }
 
 
